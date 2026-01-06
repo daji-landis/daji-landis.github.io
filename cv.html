@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="https://fav.farm/🏜"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daji Landis</title>
+    <link rel="stylesheet" href="https://unpkg.com/simple.css">
+
+    <style>
+        /* Center-align the text inside the <header> element */
+        header {
+            text-align: center;
+        }
+
+        /* Center-align the text inside the <nav> element */
+        nav {
+            text-align: center;
+        }
+        body { 
+            max-width: 70ch; 
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /* 1. This rule targets the wrapper <div> */
+        .profile-header {
+            display: flex;            /* Puts children side-by-side */
+            align-items: center;      /* Vertically centers them */
+            justify-content: center;  /* Horizontally centers the pair */
+        }
+
+        /* 2. This rule targets the image *inside* the wrapper */
+        .profile-header img {
+            width: 80px;           /* <-- Here's your "small" size */
+            height: 80px;          /* (Adjust 80px as you like) */
+            border-radius: 50%;    /* Keeps it circular */
+            object-fit: cover;
+            margin-right: 20px;    /* Adds space between pic and name */
+        }
+
+        /* 3. This rule removes extra space from your name */
+        .profile-header h1 {
+            margin: 0;             /* Removes default top/bottom margin */
+        }
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <div class="profile-header">
+            <img src="images/profile_pizza.jpeg" alt="Me with pizza dough">
+            <h1>Daji Landis</h1>
+
+    </header>
+
+<nav style="background-color: #f0f0f0; padding: 10px; margin-bottom: 20px;">
+    <strong>
+        <a href="index.html" style="text-decoration: none; margin-right: 15px;">Home</a>
+        <a href="publications.html" style="text-decoration: none; margin-right: 15px;">Publications</a>
+	<a href="talks.html" style="text-decoration: none; margin-right: 15px;">Talks</a>
+	<a href="cv.html" style="text-decoration: none; margin-right: 15px;">CV</a>
+	<a href="other.html" style="text-decoration: none; margin-right: 15px;">Other</a>
+        </strong>
+</nav>
+
+    <main>
+
+	<p> Below is all the CV stuff not captured in other categories.  Getting three degrees in three different subjects in inefficient. But it's been fun so far!</p>
+        <section>
+            <h2 id="education">Education</h2>
+            <ul>
+                <li>
+                    <p>
+                        <strong>New York University, New York City, New York</strong><br>
+                        PhD – Computer Science at Courant Institute<br>
+                        <em>Fall 2024 - present</em><br>
+                        Advised by Sunoo Park
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <strong>Bocconi University, Milan, Italy</strong><br>
+                        Masters of Science – Economics and Social Science<br>
+                        <em>October, 2023</em><br>
+                        Thesis: “Efficiency versus staking in blockchain proofs.” advised by Alon Rosen
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <strong>University of California, Los Angeles, Los Angeles, California</strong><br>
+                        Bachelors of Science – Mathematics<br>
+                        <em>June, 2020</em>
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 id="awards">Awards and Grants</h2>
+            <ul>
+                <li>Ethereum Foundation / Flashbots Grant $15,000 (2023-2024)</li>
+                <li>Bocconi Merit Scholarship, full tuition (2021-2023)</li>
+                <li>Congress-Bundestag Youth Exchange Scholarship (2014-2015)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 id="experience">Professional Experience</h2>
+            <ul>
+                <li>
+                    <p>
+                        <strong>Sr. Data & Econometrics Analyst</strong><br>
+                        <em>Outerlands Capital</em><br>
+                        March 2023 to July 2024
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <strong>Financial Analyst Intern</strong><br>
+                        <em>Horizen Labs</em><br>
+                        June 2022 to August 2022
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <strong>Researcher</strong> | Lab of Dr. Yuri Shprits<br>
+                        <em>UCLA Earth, Planetary, and Space Sciences Department</em><br>
+                        April 2018 to September 2021
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <strong>Summer Intern</strong><br>
+                        <em>Stealth Software Inc.</em><br>
+                        June 2020 to August 2020
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <strong>Summer Researcher</strong> | Lab of Dr. Yuri Shprits<br>
+                        <em>German Research Centre for Geosciences (Potsdam, Germany)</em><br>
+                        June 2019 to August 2019
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 id="other">Other</h2>
+            <ul>
+                <li>TreeHacks 2020 | Stanford, CA: Menopositiviy (<a href="https://devpost.com/daji-landis">[link]</a>)</li>
+                <li>Languages: native English, fluent German, intermediate Italian (B1)</li>
+                <li>My Erdos number is 4</li>
+            </ul>
+        </section>
+    </main>
+    
+
+</body>
+</html>

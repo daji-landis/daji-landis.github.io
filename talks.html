@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="https://fav.farm/🏜"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daji Landis - Publications</title>
+    <link rel="stylesheet" href="https://unpkg.com/simple.css">
+
+    <style>
+        /* Center-align the text inside the <header> element */
+        header {
+            text-align: center;
+        }
+
+        /* Center-align the text inside the <nav> element */
+        nav {
+            text-align: center;
+        }
+        body { 
+            max-width: 70ch; 
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /* 1. This rule targets the wrapper <div> */
+        .profile-header {
+            display: flex;            /* Puts children side-by-side */
+            align-items: center;      /* Vertically centers them */
+            justify-content: center;  /* Horizontally centers the pair */
+        }
+
+        /* 2. This rule targets the image *inside* the wrapper */
+        .profile-header img {
+            width: 80px;           /* <-- Here's your "small" size */
+            height: 80px;          /* (Adjust 80px as you like) */
+            border-radius: 50%;    /* Keeps it circular */
+            object-fit: cover;
+            margin-right: 20px;    /* Adds space between pic and name */
+        }
+
+        /* 3. This rule removes extra space from your name */
+        .profile-header h1 {
+            margin: 0;             /* Removes default top/bottom margin */
+        }
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <div class="profile-header">
+            <img src="images/profile_pizza.jpeg" alt="Me with pizza dough">
+            <h1>Daji Landis</h1>
+        </div>
+
+    </header>
+
+<nav style="background-color: #f0f0f0; padding: 10px; margin-bottom: 20px;">
+    <strong>
+        <a href="index.html" style="text-decoration: none; margin-right: 15px;">Home</a>
+        <a href="publications.html" style="text-decoration: none; margin-right: 15px;">Publications</a>
+	<a href="talks.html" style="text-decoration: none; margin-right: 15px;">Talks</a>
+	<a href="cv.html" style="text-decoration: none; margin-right: 15px;">CV</a>
+	<a href="other.html" style="text-decoration: none; margin-right: 15px;">Other</a>
+        </strong>
+</nav>
+
+    <section>
+            <h2 id="talks">Selected Talks</h2>
+            <ul>
+                <li>“Interoperability vs Security” Arguments: A Technical Framework. <em>Privacy Research Group at NYU Law Institute (2025)</em></li>
+                <li>Smart Contract Commitment Attacks. <em>NYU Blockchain Lab at NYU Stern School of Business (2025)</em></li>
+                <li>Absolute Commitments: Game-theoretic Attacks on the Fundamental Functioning of Blockchain Infrastructure. <em>Lightning talk Columbia CryptoEconomics Workshop (2024)</em> <a href="https://youtu.be/x-RgN_hmrdQ?si=7Euof_F51dHsYVLm&t=513">[link]</a></li>
+                <li>Efficiency versus staking in blockchain proofs. <em>Blockchains and Electronic Markets Closing Event (2023)</em></li>
+            </ul>
+        </section>
+    
+
+</body>
+</html>
